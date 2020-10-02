@@ -33,7 +33,7 @@ const Contact = () => {
 
         let data = { name, email, country, phone, message, subject, requests }
 
-        axios.post("http://localhost:8080/api/form", { ...data }, )
+        axios.post("https://honeydropssendmail.herokuapp.com/api/form", { ...data }, )
         .then(data => {
 
             setSent(true)
