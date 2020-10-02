@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>honeydropstelematics contact</title>
+</head>
+
+<body style="color: #CCFFE7; background-color: #012311; padding: 3rem">
+    <div>
+
+        <div style="margin-bottom: 2rem; color: #CCFFE7 !important;"> Message from honeydropstelematics.com </div>
+
+        <div style="margin-bottom: 2rem;">
+            <h2 style="color: #0EFF8F; text-transform: uppercase; font-weight: 300; margin-bottom: 1rem;">sender details</h2>
+            <div style="color: #CCFFE7; margin-bottom: 1rem;">{{name}}</div>
+            <div style="color: #CCFFE7; margin-bottom: 1rem;">{{country}}</div>
+            <div style="color: #CCFFE7 !important; margin-bottom: 1rem;">{{email}}</div>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+            <h2 style="color: #0EFF8F; text-transform: uppercase; font-weight: 300; margin-bottom: 1rem;">Service(s)</h2>
+            <ul style="margin: 0; padding: 0;">
+                {{#each requests}}
+                <li style="color:#CCFFE7; margin-bottom: 1rem">{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+            <h2 style="color: #0EFF8F; text-transform: uppercase; font-weight: 300; margin-bottom: 1rem;">ADDITIONAL
+                MESSAGE</h2>
+            <p style="color: #CCFFE7">{{message}}</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
