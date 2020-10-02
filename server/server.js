@@ -40,7 +40,7 @@ app.get('/api', (req, res) => {
 //     });
 // }
 
-app.get('/', (req, res) => { res.send('Hello from Express!')
+app.get('/', (req, res) => { res.send('Hello from Express!'))
 
 // // where the script is running
 // app.use(express.static('../client/build'));   
