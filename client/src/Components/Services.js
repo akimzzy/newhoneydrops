@@ -11,7 +11,7 @@ const Services = () => {
 
                 <div>
                     <h3>Consultation/Facilitation of Business Solutions</h3>
-                    <p>Honeydrops helps to connect potential consumers and producers together.</p>
+                    <p>Honeydrops helps connect potential customers and service providers for onward value delivery service</p>
                     <a href="#contact">
                         <button >Learn more <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><g id="Group_93" data-name="Group 93" transform="translate(-619 -1584)"><g id="Ellipse_62" data-name="Ellipse 62" transform="translate(619 1584)" fill="#fff" stroke="#012311" strokeWidth="1"><circle cx="16" cy="16" r="16" stroke="none" /><circle cx="16" cy="16" r="15.5" fill="none" /></g><path id="Union_15" data-name="Union 15" d="M.981,12.608a28.62,28.62,0,0,1,4.1-4.365,28.6,28.6,0,0,1-4.1-4.365C-.685,1.416.276,0,.276,0L8.732,7.388l-.622.855.622.855L.276,16.487S-.685,15.071.981,12.608Z" transform="translate(630.917 1591.833)" fill="#012311" /></g></svg></button>
                     </a>

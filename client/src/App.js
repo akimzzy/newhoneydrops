@@ -3,7 +3,7 @@ import Header from './Components/Header';
 import Services from './Components/Services';
 import About from './Components/About';
 import Industry from './Components/Industry';
-import Customer from './Components/Customer';
+// import Customer from './Components/Customer';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import MobileHamburger from './Components/MobileHamburger';
@@ -23,7 +23,7 @@ function App() {
         <Services />
         <About />
         <Industry />
-        <Customer />
+        {/* <Customer /> */}
         <Contact />
       </div>
 

@@ -58,7 +58,7 @@ header {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
-        gap: 15rem;
+        gap: 10rem;
 
         @media only screen and (max-width: 1000px) {
             grid-template-columns: 1fr;
@@ -89,6 +89,7 @@ header {
 
 // Home Navigation
 .menu_buton {
+    cursor: pointer;
     position: fixed;
     top: 3rem;
     right: 5rem;
@@ -172,6 +173,36 @@ nav {
 }
 
 // Home Text
+
+.message {
+    position: relative;
+    height: 5rem;
+
+    overflow: hidden;
+
+    // background-color: rgb(14, 75, 2);
+
+    p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        font-weight: 300;
+        transition: all .5s ease;
+
+        transform: translateY(20px);
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .active {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
+
 .words {
 
     @media only screen and (max-width: 1000px) {
@@ -196,9 +227,9 @@ nav {
         }
     }
 
-    p {
-        margin-bottom: 2rem;
-    }
+    // p {
+    //     margin-bottom: 2rem;
+    // }
 
     button {
         padding: .7rem 1.5rem;
@@ -242,7 +273,7 @@ nav {
     }
 
     .slide {
-        transition: transform .2s ease;
+        transition: transform .5s ease;
         display: flex;
         // transform: translateX(-300%);
 
@@ -703,6 +734,24 @@ section {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
             gap: 1rem;
+            div {
+                background-color: lighten($prim-col, 5%);
+                padding: .5rem;
+                border-radius: 1rem;
+                display: flex;
+                align-items: center;
+                position: relative;
+
+                svg {
+                    pointer-events: none;
+                    position: absolute;
+                    left: 10px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 1.5rem;
+                    width: 1.5rem;
+                }
+            }
 
             .heading {
                 grid-column: 1 / -1;
@@ -711,10 +760,14 @@ section {
 
             input {
                 margin-right: 1rem;
+                cursor: pointer;
             }
 
             label {
                 color: $sec-col;
+                // height: 100%;
+                width: 100%;
+                cursor: pointer;
             }
         }
 

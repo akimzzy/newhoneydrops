@@ -12,7 +12,7 @@ const About = () => {
                 <br /><br />
                 Our <span className="mark">mission</span> is to be the value-centric solution Organization that bridge the gap between needs and services to individual customer and corporate organizations.
                 <br /><br />
-                Our <span className="mark">vision</span> is too become the leading service provider and value reference in facilitating and activating Africa’s business solutions.
+                Our <span className="mark">vision</span> is to become the leading service provider and value reference in facilitating and activating Africa’s business solutions.
             </p>
         </div>
 

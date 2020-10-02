@@ -8,7 +8,7 @@ const Nav = ({ open, setOpen }) => {
             <li onClick={() => setOpen(false)}><a href='/'>Home</a></li>
             <li onClick={() => setOpen(false)}><a href='#about'>About</a></li>
             <li onClick={() => setOpen(false)}><a href='#services'>Services</a></li>
-            <li onClick={() => setOpen(false)}><a href='#testimonials'>Testimonials</a></li>
+            {/* <li onClick={() => setOpen(false)}><a href='#testimonials'>Testimonials</a></li> */}
             <li onClick={() => setOpen(false)}><a href='#contact'>Contact us</a></li>
         </ul>
     </nav>);
