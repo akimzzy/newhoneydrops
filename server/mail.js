@@ -23,7 +23,7 @@ const sendMail = (name, email, country, subject, phone, message, requests, cb) =
 
     const mailOptions = {
         from: email,
-        to: "akimzzy@gmail.com",
+        to: "honeydropstelltd@gmail.com",
         subject,
         text: subject,
         html: htmlToSend
