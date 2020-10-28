@@ -49,6 +49,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        <p> &#169; Copyright Honeydrops Telematics Limited - 2020</p>
     </footer>);
 }
 

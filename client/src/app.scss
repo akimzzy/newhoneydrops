@@ -72,7 +72,7 @@ header {
     position: absolute;
     top: -110px;
     left: 20px;
-    width: 20rem;
+    width: 21rem;
     z-index: 2;
 
     @media only screen and (max-width: 1000px) {
@@ -116,7 +116,7 @@ nav {
     align-items: center;
 
     img {
-        width: 4rem;
+        width: 5.5rem;
         z-index: 3;
 
     }
@@ -188,7 +188,9 @@ nav {
         left: 0;
         font-size: 1.2rem;
         line-height: 1.3rem;
-        font-weight: 300;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: $sec-col;
         transition: all .5s ease;
 
         transform: translateY(20px);
@@ -214,7 +216,7 @@ nav {
     
     h1 {
         font-size: 2.7rem;
-        color: $sec-col;
+        color: $white-col;
         margin-bottom: .5rem;
         // text-shadow: 5px 5px 3px rgba(black, .5);
         // font-weight: 500;

@@ -7,7 +7,7 @@ const Header = ({ open, setOpen }) => {
   useEffect(() => {
     let timeout = setTimeout(
       () => (value === 300 ? setValue(0) : setValue(value + 100)),
-      5000
+      7000
     );
     return () => clearTimeout(timeout);
   }, [value]);
@@ -22,10 +22,10 @@ const Header = ({ open, setOpen }) => {
         <div className="words">
           <h1>Honeydrops Telematics Ltd.</h1>
           <div className="message">
-            <p className={value < 100 ? "active" : ""}>Track your car/vehicle from anywhere in the world</p>
-            <p className={value === 100 ? "active" : ""}>Car/Vehicle security? We've got you covered.</p>
-            <p className={value === 200 ? "active" : ""}>...bridging the gap between a need and a service.</p>
-            <p className={value === 300 ? "active" : ""}>...bridging the gap between a need and a service.</p>
+            <p className={value < 100 ? "active" : ""}>Fleet Management Solutions</p>
+            <p className={value === 100 ? "active" : ""}>Business Solutions</p>
+            <p className={value === 200 ? "active" : ""}>Track your car/vehicle from anywhere in the world</p>
+            <p className={value === 300 ? "active" : ""}>...bridging the gap between needs and services.</p>
           </div>
           <a href="#services">
             <button>Get started</button>
@@ -41,25 +41,25 @@ const Header = ({ open, setOpen }) => {
             >
               <div className="slide_img">
                 <img
-                  src={require("../assets/slide1.png")}
+                  src={require("../assets/2.png")}
                   alt="cars and trucks"
                 />
               </div>
               <div className="slide_img">
                 <img
-                  src={require("../assets/slide1.png")}
+                  src={require("../assets/1.png")}
                   alt="cars and trucks"
                 />
               </div>
               <div className="slide_img">
                 <img
-                  src={require("../assets/slide1.png")}
+                  src={require("../assets/3.png")}
                   alt="cars and trucks"
                 />
               </div>
               <div className="slide_img">
                 <img
-                  src={require("../assets/slide1.png")}
+                  src={require("../assets/4.png")}
                   alt="cars and trucks"
                 />
               </div>
