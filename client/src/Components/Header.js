@@ -7,7 +7,7 @@ const Header = ({ open, setOpen }) => {
   useEffect(() => {
     let timeout = setTimeout(
       () => (value === 300 ? setValue(0) : setValue(value + 100)),
-      7000
+      6000
     );
     return () => clearTimeout(timeout);
   }, [value]);
@@ -41,25 +41,25 @@ const Header = ({ open, setOpen }) => {
             >
               <div className="slide_img">
                 <img
-                  src={require("../assets/2.png")}
+                  src={require("../assets/2.jpg")}
                   alt="cars and trucks"
                 />
               </div>
               <div className="slide_img">
                 <img
-                  src={require("../assets/1.png")}
+                  src={require("../assets/1.jpg")}
                   alt="cars and trucks"
                 />
               </div>
               <div className="slide_img">
                 <img
-                  src={require("../assets/3.png")}
+                  src={require("../assets/3.jpg")}
                   alt="cars and trucks"
                 />
               </div>
               <div className="slide_img">
                 <img
-                  src={require("../assets/4.png")}
+                  src={require("../assets/4.jpg")}
                   alt="cars and trucks"
                 />
               </div>

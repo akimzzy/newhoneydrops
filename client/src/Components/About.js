@@ -4,7 +4,7 @@ const About = () => {
     return ( <section className="about" id="about">
         <div className="about__honeydrops box">
             <h2>Know more about Honeydrops</h2>
-            <img src={require("../assets/Telematics.png")} alt="telematics illustration" ></img>
+            <img src={require("../assets/Telematics.jpg")} alt="telematics illustration" ></img>
             <p>
                 Honeydrops solutions designed to help you optimize, scale and take absolute control of your cost operations anywhere in the world.
                 <br /><br />
@@ -18,7 +18,7 @@ const About = () => {
 
         <div className="about__telematics box">
             <h2>What is Telematics?</h2>
-            <img src={require("../assets/why_is_telematics.png")} alt="telematics illustration" ></img>
+            <img src={require("../assets/why_is_telematics.jpg")} alt="telematics illustration" ></img>
             <p>
                  Tracking basically provides information on position, while Telematics gives you more details than mere position. Tracking is just like 10% of the REAL DEAL.
                 <br /><br />

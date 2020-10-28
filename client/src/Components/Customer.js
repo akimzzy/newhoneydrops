@@ -11,7 +11,7 @@ const Customer = () => {
 
             <div className="customer customer_active">
                 <div className="customer__details">
-                    <img src={require("../assets/customer1.png")} alt="first customer" />
+                    <img src={require("../assets/customer1.jpg")} alt="first customer" />
                     <h5>John Does</h5>
                     <p>Manager, ABC ltd.</p>
                 </div>
@@ -23,7 +23,7 @@ const Customer = () => {
 
             <div className="customer">
                 <div className="customer__details">
-                    <img src={require("../assets/customer1.png")} alt="first customer" />
+                    <img src={require("../assets/customer1.jpg")} alt="first customer" />
                     <h5>John Does2</h5>
                     <p>Manager, ABC ltd.</p>
                 </div>
@@ -35,7 +35,7 @@ const Customer = () => {
 
             <div className="customer">
                 <div className="customer__details">
-                    <img src={require("../assets/customer1.png")} alt="first customer" />
+                    <img src={require("../assets/customer1.jpg")} alt="first customer" />
                     <h5>John Does3</h5>
                     <p>Manager, ABC ltd.</p>
                 </div>
