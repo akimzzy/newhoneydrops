@@ -11,6 +11,7 @@ const Contact = () => {
   const [subject, setSubject] = useState("");
   const [requests, setRequests] = useState([]);
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
 
   const handleServices = (string) => {
     if (requests.includes(string)) {
@@ -27,10 +28,14 @@ const Contact = () => {
     e.preventDefault();
 
     let data = { name, email, country, phone, message, subject, requests };
+    setSending(true)
+
     axios
       .post("https://honeydropssendmail.herokuapp.com/api/form", { ...data })
       .then((data) => {
+        setSending(false)
         setSent(true);
+
         setTimeout(() => setSent(false), 3000);
 
         setName("");
@@ -55,7 +60,7 @@ const Contact = () => {
         </p>
       </div>
 
-      <form onSubmit={(e) => handleMessage(e)}>
+      <form style={sending ? {pointerEvents: "none", opacity: .4} : {pointerEvents: "auto"}} onSubmit={(e) => handleMessage(e)}>
         <div className="fillIns">
           <div className="fullName">
             <label htmlFor="fullName">Full name</label>
